@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face { font-family: "theme_signet"; font-style: normal; font-weight: normal; src: url("../fonts/signet.woff") format("woff"); }
+@font-face { font-family: "theme_title"; font-style: normal; font-weight: normal; src: url("../fonts/title.woff") format("woff");  }
+@font-face { font-family: "theme_content"; font-style: normal; font-weight: normal; src: url("../fonts/content.woff") format("woff"); }
+
+* { margin: 0px; padding: 0px; }
+html, body { height: 100%; }
+body { background: url(../images/bg.png); }
+main { width: 1000px; background: url(../images/hdr.png) no-repeat scroll 0% 0%,url(../images/ftr.png) no-repeat scroll 100% 100%, #fff; min-height:100%;  margin: 0 auto; border-left: 1px solid #999; border-right: 1px solid #999; }
+a { text-decoration: none; }
+
+#signet { font-family: theme_signet; background-color: #c33; border-radius: 5px; color: #fff; padding: 5px; font-size: 24px; position: relative; top: 240px; left: 240px; transition: all 200ms ease-in 0s; border: 2px solid #c33; }
+#signet:hover { background: #fff; color: #c33; }
+
+#title, #list { width: 480px; font-family: theme_title; font-size: 32px; overflow: hidden; }
+#title { margin: 280px 0px 30px 260px; font-weight: normal; }
+#list { margin: 0px 260px; padding: 260px 0px 160px 0px; }
+#list li { list-style: none; }
+#list li a { display: block; color: #999; transition: all 400ms linear 0s; margin: 20px 0px 0px 0px; }
+#title, #list li a { height: 60px; line-height: 60px; padding: 0px 0px 0px 14px; }
+#title, #list li a:hover { color: #333; background: #fff url(../images/cir.png) no-repeat; }
+
+#content { margin: 0px 150px; width: 700px; padding: 0px 0px 280px 0px; }
+#content, #content * { font-family: theme_content; font-size: 28px; color: #666; }
+#content a { color: #666; }
+#content a:hover { color: #933; }
+#content a:after { content: '链'; width: 14px; display: inline-block; color: #933; font-size: 24px; position: relative; top: -10px; left: -8px; font-style: italic; }
+#content code { color: #333; }
+#content code:before { content: '【'; color: #933; }
+#content code:after { content: '】'; color: #933; }
