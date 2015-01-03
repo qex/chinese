@@ -7,7 +7,7 @@
 * { margin: 0px; padding: 0px; }
 html, body { height: 100%; }
 body { background: url(../images/bg.png); }
-main { width: 1000px; background: url(../images/hdr.png) no-repeat scroll 0% 0%,url(../images/ftr.png) no-repeat scroll 100% 100%, #fff; min-height:100%;  margin: 0 auto; border-left: 1px solid #999; border-right: 1px solid #999; }
+main { width: 1000px; background: url(../images/hdr.png) no-repeat scroll 0% 0%,url(../images/ftr.png) no-repeat scroll 100% 100%, #fff; min-height:100%;  margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
 a { text-decoration: none; }
 
 #signet { font-family: theme_signet; background-color: #c33; border-radius: 5px; color: #fff; padding: 5px; font-size: 24px; position: relative; top: 240px; left: 240px; transition: all 200ms ease-in 0s; border: 2px solid #c33; }
